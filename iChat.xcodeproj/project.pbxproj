@@ -16,6 +16,9 @@
 		D02FC4DD224276DD008A1D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02FC4DB224276DD008A1D58 /* LaunchScreen.storyboard */; };
 		D02FC4E8224276DE008A1D58 /* iChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FC4E7224276DE008A1D58 /* iChatTests.swift */; };
 		D02FC4F722427899008A1D58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02FC4F622427899008A1D58 /* GoogleService-Info.plist */; };
+		D0D5DB312242927B001E8D98 /* iButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5DB302242927B001E8D98 /* iButton.swift */; };
+		D0D5DB35224299AD001E8D98 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5DB34224299AD001E8D98 /* RegisterViewController.swift */; };
+		D0D5DB37224299C2001E8D98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5DB36224299C2001E8D98 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		D02FC4E7224276DE008A1D58 /* iChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatTests.swift; sourceTree = "<group>"; };
 		D02FC4E9224276DE008A1D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02FC4F622427899008A1D58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0D5DB302242927B001E8D98 /* iButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iButton.swift; sourceTree = "<group>"; };
+		D0D5DB34224299AD001E8D98 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D0D5DB36224299C2001E8D98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		D02FC4D1224276DB008A1D58 /* iChat */ = {
 			isa = PBXGroup;
 			children = (
+				D0D5DB2F22429240001E8D98 /* Utils */,
 				D02FC4F2224277FF008A1D58 /* Model */,
 				D02FC4F42242781A008A1D58 /* View */,
 				D02FC4F322427810008A1D58 /* Controller */,
@@ -140,6 +147,8 @@
 			children = (
 				D02FC4D4224276DB008A1D58 /* ViewController.swift */,
 				D02FC4D2224276DB008A1D58 /* AppDelegate.swift */,
+				D0D5DB34224299AD001E8D98 /* RegisterViewController.swift */,
+				D0D5DB36224299C2001E8D98 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +170,14 @@
 				D02FC4DE224276DD008A1D58 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0D5DB2F22429240001E8D98 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0D5DB302242927B001E8D98 /* iButton.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D5DB35224299AD001E8D98 /* RegisterViewController.swift in Sources */,
 				D02FC4D5224276DB008A1D58 /* ViewController.swift in Sources */,
+				D0D5DB312242927B001E8D98 /* iButton.swift in Sources */,
+				D0D5DB37224299C2001E8D98 /* LoginViewController.swift in Sources */,
 				D02FC4D3224276DB008A1D58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
