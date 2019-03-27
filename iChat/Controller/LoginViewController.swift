@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import Firebase
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var emailTextfield: UITextField!
+    @IBOutlet weak var passwordTextfield: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,4 +32,19 @@ class LoginViewController: UIViewController {
     }
     */
 
+    @IBAction func loginPressed(_ sender: iButton) {
+        
+        SVProgressHUD.show()
+        Auth.auth().signIn(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
+            if error != nil {
+                SVProgressHUD.dismiss()
+                print(error)
+            } else {
+                SVProgressHUD.dismiss()
+                print("Login Success")
+                self.performSegue(withIdentifier: "goToChat", sender: self)
+            }
+        }
+    }
+    
 }

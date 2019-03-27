@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6FC10B443C16980B8DE9DE87 /* Pods_iChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F3E4DE691A10C018F81039 /* Pods_iChatTests.framework */; };
 		B7B2C8768F3DD014233B6292 /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE6559109E4948CC8AC3028 /* Pods_iChat.framework */; };
+		D02AA06D2242AE2D007BC4D0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AA06C2242AE2D007BC4D0 /* ChatViewController.swift */; };
 		D02FC4D3224276DB008A1D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FC4D2224276DB008A1D58 /* AppDelegate.swift */; };
 		D02FC4D5224276DB008A1D58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FC4D4224276DB008A1D58 /* ViewController.swift */; };
 		D02FC4D8224276DB008A1D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02FC4D6224276DB008A1D58 /* Main.storyboard */; };
@@ -16,6 +17,10 @@
 		D02FC4DD224276DD008A1D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02FC4DB224276DD008A1D58 /* LaunchScreen.storyboard */; };
 		D02FC4E8224276DE008A1D58 /* iChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FC4E7224276DE008A1D58 /* iChatTests.swift */; };
 		D02FC4F722427899008A1D58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02FC4F622427899008A1D58 /* GoogleService-Info.plist */; };
+		D07492AD2243A905004455A6 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07492AC2243A905004455A6 /* CustomMessageCell.swift */; };
+		D07492B12243AA43004455A6 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07492B02243AA43004455A6 /* MessageCell.xib */; };
+		D0B09C74224A402B008E0D8C /* iView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B09C73224A402B008E0D8C /* iView.swift */; };
+		D0B09C76224A4847008E0D8C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B09C75224A4847008E0D8C /* Message.swift */; };
 		D0D5DB312242927B001E8D98 /* iButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5DB302242927B001E8D98 /* iButton.swift */; };
 		D0D5DB35224299AD001E8D98 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5DB34224299AD001E8D98 /* RegisterViewController.swift */; };
 		D0D5DB37224299C2001E8D98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5DB36224299C2001E8D98 /* LoginViewController.swift */; };
@@ -38,6 +43,7 @@
 		B2F3E4DE691A10C018F81039 /* Pods_iChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C417F1972E74655E5D87AE2A /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 		C8948FC77A928B980E0A17A0 /* Pods-iChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChatTests/Pods-iChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D02AA06C2242AE2D007BC4D0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		D02FC4CF224276DB008A1D58 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02FC4D2224276DB008A1D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02FC4D4224276DB008A1D58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		D02FC4E7224276DE008A1D58 /* iChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatTests.swift; sourceTree = "<group>"; };
 		D02FC4E9224276DE008A1D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02FC4F622427899008A1D58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D07492AC2243A905004455A6 /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		D07492B02243AA43004455A6 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		D0B09C73224A402B008E0D8C /* iView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iView.swift; sourceTree = "<group>"; };
+		D0B09C75224A4847008E0D8C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D0D5DB302242927B001E8D98 /* iButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iButton.swift; sourceTree = "<group>"; };
 		D0D5DB34224299AD001E8D98 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D0D5DB36224299C2001E8D98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +148,7 @@
 		D02FC4F2224277FF008A1D58 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0B09C75224A4847008E0D8C /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 				D02FC4D2224276DB008A1D58 /* AppDelegate.swift */,
 				D0D5DB34224299AD001E8D98 /* RegisterViewController.swift */,
 				D0D5DB36224299C2001E8D98 /* LoginViewController.swift */,
+				D02AA06C2242AE2D007BC4D0 /* ChatViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -156,6 +168,7 @@
 		D02FC4F42242781A008A1D58 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D07492AB2243A8A0004455A6 /* Custom Cell */,
 				D02FC4D6224276DB008A1D58 /* Main.storyboard */,
 				D02FC4DB224276DD008A1D58 /* LaunchScreen.storyboard */,
 				D02FC4D9224276DD008A1D58 /* Assets.xcassets */,
@@ -172,10 +185,20 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D07492AB2243A8A0004455A6 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D07492AC2243A905004455A6 /* CustomMessageCell.swift */,
+				D07492B02243AA43004455A6 /* MessageCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		D0D5DB2F22429240001E8D98 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				D0D5DB302242927B001E8D98 /* iButton.swift */,
+				D0B09C73224A402B008E0D8C /* iView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -264,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07492B12243AA43004455A6 /* MessageCell.xib in Resources */,
 				D02FC4DD224276DD008A1D58 /* LaunchScreen.storyboard in Resources */,
 				D02FC4F722427899008A1D58 /* GoogleService-Info.plist in Resources */,
 				D02FC4DA224276DD008A1D58 /* Assets.xcassets in Resources */,
@@ -352,10 +376,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07492AD2243A905004455A6 /* CustomMessageCell.swift in Sources */,
 				D0D5DB35224299AD001E8D98 /* RegisterViewController.swift in Sources */,
+				D0B09C74224A402B008E0D8C /* iView.swift in Sources */,
+				D0B09C76224A4847008E0D8C /* Message.swift in Sources */,
 				D02FC4D5224276DB008A1D58 /* ViewController.swift in Sources */,
 				D0D5DB312242927B001E8D98 /* iButton.swift in Sources */,
 				D0D5DB37224299C2001E8D98 /* LoginViewController.swift in Sources */,
+				D02AA06D2242AE2D007BC4D0 /* ChatViewController.swift in Sources */,
 				D02FC4D3224276DB008A1D58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
